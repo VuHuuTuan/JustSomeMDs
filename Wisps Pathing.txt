@@ -46,13 +46,13 @@ Cách xác định vị trí (Tây Bắc: TB, Đông Bắc: ĐB, Tây Nam: TN, �
 		Ví dụ: spawn tại X, điểm spawn có tường ở hướng TN, ta xác định mình đang ở hướng TN -> có 2 event ở gần đó hướng TB(B) và ĐN(D) so với điểm spawn.
 			
 		- Spawn ngay giữa bản đồ, không có tường, xem:
-			+ Có đom đóm xung quanh -> đi theo đom đóm đến event bất kì, nhớ hướng đi.
+			+ Có đom đóm xung quanh -> đi theo đom đóm đến event bất kì, nhớ hướng đi -> áp dụng cách xác định vị trí theo event.
 			+ Không có đom đóm xung quanh -> xui -> chọn 1 hướng và đi 1 đoạn ngắn xem:
 				- có đom đóm -> đi theo đom đóm tìm event -> áp dụng cách xác định vị trí theo event.
 				- có event -> áp dụng cách xác định vị trí theo event.
 				- có tường -> áp dụng cách xác định vị trí theo tường.
 				- vẫn không có gì -> quay đầu chọn hướng khác vì khả năng lớn là cái hướng đó chả có cm gì cả.
-		Ví dụ: spawn tại Y, đi dò sang bên phải ta tìm thấy event, vì ta đi từ bên trái qua nên có thể xác định ta đang ở vị trí C -> có 2 event khác ở gần hướng TB(A) và TN(D) so với điểm C.
+		Ví dụ: spawn tại Y, đi dò sang bên trái không có gì, quay lại đi dò sang bên phải ta tìm thấy event, vì ta đi từ bên trái qua nên có thể xác định ta đang ở vị trí C -> có 2 event khác ở gần hướng TB(A) và TN(D) so với điểm C.
 				
 				   
 Tăng số lượng đom đóm nhận được, cách lấy point thì cũng không khó chắc ae cũng biết rồi.
